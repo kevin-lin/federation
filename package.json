@@ -22,7 +22,7 @@
     "codegen:check": "npm run codegen && git diff --exit-code"
   },
   "engines": {
-    "node": ">=12.13.0 <18.0",
+    "node": "<18.13",
     "npm": ">=7 <9"
   },
   "dependencies": {
@@ -83,6 +83,6 @@
     ]
   },
   "volta": {
-    "node": "16.15.1"
+    "node": "18.12.0"
   }
 }
